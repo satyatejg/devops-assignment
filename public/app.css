@@ -1,0 +1,60 @@
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa 0%, #fff3e0 50%, #f3e5f5 100%);
+    color: #1f2937;
+    margin: 0;
+}
+
+.container {
+    max-width: 920px;
+    margin: 48px auto;
+    padding: 28px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.94));
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(14, 45, 78, 0.08);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+.lead {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 0.85rem;
+    color: #0f172a;
+}
+
+.tasks {
+    margin: 0.5rem 0 1rem 1.25rem;
+}
+
+.muted {
+    color: #475569;
+    font-size: 0.95rem;
+}
+
+.task {
+    margin: 0.35rem 0;
+    padding-left: 0.35rem;
+    position: relative;
+}
+
+.task::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,#34d399,#60a5fa);
+    display: inline-block;
+    margin-right: 0.5rem;
+    transform: translateY(2px);
+}
+
+a {
+    color: #0ea5a4;
+    text-decoration: none;
+    font-weight: 600;
+
+
+a:hover { text-decoration: underline; color:#0b7b78; }
+
+.hero-note { display:block; margin-bottom:12px; color:#065f46; font-weight:600 }
+}
