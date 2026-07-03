@@ -3,7 +3,6 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const redditData = require('./data.json');
 
 const helmet = require("helmet");
 const compression = require("compression");
