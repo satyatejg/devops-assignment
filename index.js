@@ -18,7 +18,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors());
 
-app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: false
+  })
+);
 
 app.use(compression());
 
