@@ -43,6 +43,5 @@ Load testing was performed using k6.
 
 The complete implementation report is available in:
 
-[DevOps Assignment Report](report/devOps_assignment_report.pdf)
-
+[DevOps Assignment Report](report/devops_assignment_report.pdf)
 
